@@ -1,0 +1,95 @@
+/* reset css */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    background-image: url("https://cdn.shopify.com/s/files/1/0305/4075/9177/products/papel-de-parede-adesivo-degrade-azul-e-rosa-n05171-412071.jpg?v=1643336654");
+    background-size: auto 100vh;
+    height: 100vh;
+    font-size: 20px;
+    padding: 10px;
+  }
+/* se a tela tiver 400px vai carregar este estilo */
+  @media (min-width: 600px) {
+body {
+    font-size: 20px;
+}
+  }
+
+  @media (min-width: 1200px) {
+    body {
+        font-size: 20px;
+        background-color: pink;
+    }
+      }
+
+  header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+  
+  .menu {
+    background-color: white;
+    border-radius: 2px;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+    
+    
+  }
+  
+  .menu a {
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* background-color: aquamarine; */
+    border-radius: 1px;
+    display: block;
+    padding: 10px 20px;
+   
+  }
+  
+   a:hover {
+    text-decoration: underline;
+  }
+   
+  .site-title,
+  .site-subtitle {
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
+
+  img {
+    height: 200px;
+    width: 300px;
+    font-size: 15px;
+    justify-content: space-around;
+
+  }
